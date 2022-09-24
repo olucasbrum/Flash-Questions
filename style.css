@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%; /* 10px */
+
+  --bg-boody: #202124;
+  --bg-card-q: #7026d9;
+
+  --fs-color: #fafafa;
+  --txt-card: #000000;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.6rem;
+  color: var(--fs-color);
+
+  height: 100vh;
+  background-color: var(--bg-boody);
+}
+
+.page {
+  min-width: 32rem;
+  height: 100%;
+
+  margin: 0 auto;
+  padding: 3rem;
+  justify-content: center;
+}
+
+main h1 {
+  font-weight: 700;
+  font-size: 6rem;
+
+  line-height: 9rem;
+}
+
+main h2 {
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 4.5rem;
+
+  margin: 3.2rem 0 3.2rem 0;
+}
+
+main p {
+  font-weight: 400;
+  line-height: 2.4rem;
+
+  margin: 3.2rem 0 3.2rem 0;
+}
+
+main button {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+
+  height: 7.2rem;
+
+  border: none;
+  border-radius: 0.6rem;
+  cursor: pointer;
+}
+
+main button:hover {
+  opacity: 0.9;
+}
+
+.btns {
+  display: flex;
+
+  gap: 2.7rem;
+  margin-bottom: 3.2rem;
+}
+
+.card-question {
+  padding-bottom: 3.2rem;
+}
+
+.tt {
+  display: inline-flex;
+  height: 21rem;
+  width: 100%;
+
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  
+  border-radius: 1rem 1rem 0 0;
+  background-color: var(--bg-card-q);
+}
+
+.txt {
+  display: inline-flex;
+  height: 22rem;
+  width: 100%;
+
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+
+  color: var(--txt-card);
+  background-color: var(--fs-color);
+  padding: 1rem;
+  border-radius:  0 0 1rem 1rem;
+}
+
+.blur {
+  filter: blur(0.4rem);
+}
+
+@media (min-width: 770px) {
+  .page {
+    display: flex;
+    align-items: center;
+    gap: 15rem;
+    padding: 10rem;
+  }
+
+  main,
+  .card-question {
+    max-width: 70rem;
+  }
+}
