@@ -261,5 +261,3 @@ export const questions = [
     __v: 0
   }
 ]
-
-/* export default questions */
