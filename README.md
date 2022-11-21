@@ -1,7 +1,5 @@
 # Flash App
 
-- Projeto criado como forma de estudo.
-
 _
 
 
