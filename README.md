@@ -1,6 +1,6 @@
 # Flash App
 
-fix bugs
+fixing bugs
 
 
 
