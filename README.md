@@ -1,8 +1,5 @@
 # Flash App
 
-fixing bugs
-
-
 
 *in progress* :construction: 
 
